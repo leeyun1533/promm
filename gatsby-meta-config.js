@@ -1,9 +1,9 @@
 module.exports = {
-  title: `FEObserver`,
+  title: `프롬의 Devlog`,
   description: `FE 개발을 공유합니다`,
   author: `이정윤`,
   introduction: `FE Engineer @line financial+`,
-  siteUrl: `https://feobserver.netlify.com`, // Your blog site url
+  siteUrl: `https://prom.netlify.net`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: ``, // Your GitHub account
