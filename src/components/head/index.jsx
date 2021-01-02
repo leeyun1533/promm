@@ -1,8 +1,7 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
-
 
 export function Head({ description, lang, meta, keywords, title }) {
   const firebaseConfig = {
@@ -13,15 +12,26 @@ export function Head({ description, lang, meta, keywords, title }) {
     messagingSenderId: '232600417030',
     appId: '1:232600417030:web:1a616ff178d1db6a572487',
     measurementId: 'G-9DT7R7RGEZ',
-  }  
+  }
 
-    useEffect(() => {
-      import('firebase').then(firebase => {
-        firebase.initializeApp(firebaseConfig);
+  useEffect(() => {
+    async function getFirebaseClient() {
+      const { default: firebase } = await import('firebase/app')
+
+      await Promise.all([import('firebase/analytics')])
+
+      if (!firebase.apps.length) {
+        firebase.initializeApp(firebaseConfig)
         firebase.analytics()
-      });
-    }, [])
+      } else {
+        firebase.app() // if already initialized, use that one
+        firebase.analytics()
+      }
 
+      return firebase
+    }
+    getFirebaseClient()
+  }, [])
   return (
     <StaticQuery
       query={detailsQuery}
