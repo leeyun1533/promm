@@ -32,6 +32,7 @@
     "gatsby-source-filesystem": "^2.0.28",
     "gatsby-transformer-remark": "^2.3.8",
     "gatsby-transformer-sharp": "^2.1.17",
+    "gh-pages": "^3.1.0",
     "intersection-observer": "^0.5.1",
     "katex": "^0.11.1",
     "lodash": "^4.17.19",
@@ -85,7 +86,7 @@
     "start": "npm run develop",
     "build": "gatsby build",
     "lh": "lighthousebot",
-    "deploy": "gatsby build && gh-pages -d public -b master -r 'git@github.com:${leeyun1533}/${leeyunblog}.github.io.git'",
+    "deploy": "gatsby build && gh-pages -d public -b master -r 'git@github.com:${leeyun1533}/${promm}.github.io.git'",
     "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
   }
 }
