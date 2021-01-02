@@ -236,7 +236,8 @@ export const 기본_화면 = () => ({
 ```
 
 P 컴포넌트엔 템플릿과 스타일만 담겨있기 때문에 오류 없이 화면에 말끔하게 표시된다.
-![Storybook](./invest-complete.png)
+
+<!-- ![Storybook](./invest-complete.png) -->
 
 ### Addons
 
