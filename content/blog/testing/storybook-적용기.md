@@ -6,7 +6,7 @@ thumbnail: { thumbnailSrc }
 draft: false
 ---
 
-직전 직장에서 Storybook 포스트를 정리한게 있는데, 발행을 못하고 이직하게되어서 개인블로그에서 정리하려한다.
+직전 직장 다닐때 Storybook관련 정리한 것을 포스팅하려한다.
 프론트엔드 프로젝트에 Storybook을 도입한 계기와 방법을 설명한다.
 
 <!-- excerpt -->
