@@ -1,5 +1,5 @@
 ---
-title: storybook 적용기
+title: storybook 적용기 with Vue
 date: 2021-01-02 13:01:99
 category: testing
 thumbnail: { thumbnailSrc }
