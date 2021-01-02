@@ -129,7 +129,7 @@ export const ParticleSwitch = () => {
           height={24}
           width={48}
           checkedIcon={<div className="icon checkedIcon">❄️</div>}
-          uncheckedIcon={<div className="icon uncheckedIcon">🍂</div>}
+          uncheckedIcon={<div className="icon uncheckedIcon">☀️</div>}
           offColor={'#d9dfe2'}
           offHandleColor={'#fff'}
           onColor={'#E0FFFF'}
