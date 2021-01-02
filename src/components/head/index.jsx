@@ -1,9 +1,27 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
+
 export function Head({ description, lang, meta, keywords, title }) {
+  const firebaseConfig = {
+    apiKey: 'AIzaSyC2yDstpNDLZtZhonYOpGNpjdjrlUl5AvM',
+    authDomain: 'promm-27855.firebaseapp.com',
+    projectId: 'promm-27855',
+    storageBucket: 'promm-27855.appspot.com',
+    messagingSenderId: '232600417030',
+    appId: '1:232600417030:web:1a616ff178d1db6a572487',
+    measurementId: 'G-9DT7R7RGEZ',
+  }  
+
+    useEffect(() => {
+      import('firebase').then(firebase => {
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics()
+      });
+    }, [])
+
   return (
     <StaticQuery
       query={detailsQuery}
