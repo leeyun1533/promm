@@ -1,8 +1,21 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import * as firebase from 'firebase'
 
 export default class HTML extends React.Component {
   render() {
+    const firebaseConfig = {
+      apiKey: 'AIzaSyC2yDstpNDLZtZhonYOpGNpjdjrlUl5AvM',
+      authDomain: 'promm-27855.firebaseapp.com',
+      projectId: 'promm-27855',
+      storageBucket: 'promm-27855.appspot.com',
+      messagingSenderId: '232600417030',
+      appId: '1:232600417030:web:1a616ff178d1db6a572487',
+      measurementId: 'G-9DT7R7RGEZ',
+    }
+    firebase.initializeApp(firebaseConfig)
+    firebase.analytics()
+
     return (
       <html {...this.props.htmlAttributes}>
         <head>
