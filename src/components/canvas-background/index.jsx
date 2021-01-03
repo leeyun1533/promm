@@ -105,7 +105,7 @@ function toggleTheme(theme) {
 }
 
 export const BackgroundSwitch = () => {
-  const [checked, setChecked] = useState(true)
+  const [checked, setChecked] = useState(false)
 
   const handleChange = _checked => {
     const theme = getTheme(_checked)
@@ -115,7 +115,7 @@ export const BackgroundSwitch = () => {
 
   useEffect(() => {
     var checked = document.querySelector('#particleCanvas')
-    handleChange(Boolean(true))
+    handleChange(Boolean(checked))
     checked && checked.remove()
   }, [])
 
