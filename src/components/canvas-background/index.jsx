@@ -104,7 +104,7 @@ function toggleTheme(theme) {
   }
 }
 
-export const ParticleSwitch = () => {
+export const BackgroundSwitch = () => {
   const [checked, setChecked] = useState(true)
 
   const handleChange = _checked => {
@@ -128,8 +128,8 @@ export const ParticleSwitch = () => {
           id="normal-switch2"
           height={24}
           width={48}
-          checkedIcon={<div className="icon checkedIcon">❄️</div>}
-          uncheckedIcon={<div className="icon uncheckedIcon">☀️</div>}
+          checkedIcon={<div className="icon">❄️</div>}
+          uncheckedIcon={<div className="icon">☀️</div>}
           offColor={'#d9dfe2'}
           offHandleColor={'#fff'}
           onColor={'#E0FFFF'}
