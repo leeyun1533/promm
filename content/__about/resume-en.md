@@ -26,7 +26,7 @@ thumbnail: ''
 | -----------: | ------------------------------------------------------------------------- |
 |   **period** | 20.06 ~ current                                                           |
 | **position** | Fintech web dev / Front-End Engineer                                      |
-| **projects** | Japen Bank Hybrid Web, Indonesia Bank Hybrid Web, Indonesia Bank LIFF Web |
+| **projects** | Japan Bank Hybrid Web, Indonesia Bank Hybrid Web, Indonesia Bank LIFF Web |
 
 - Japan Bank Hybrid Web, Indonesia Bank Hybrid Web
 
