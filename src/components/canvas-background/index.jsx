@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import Switch from 'react-switch'
 import { THEME_2 } from '../../constants'
-
+import switchOnSound from '../../../assets/switch-on.wav'
+import switchOffSound from '../../../assets/switch-off.wav'
 import './index.scss'
 
 function getTheme(checked) {
@@ -104,11 +105,20 @@ function toggleTheme(theme) {
   }
 }
 
+const soundOn = new Audio(switchOnSound)
+const soundOff = new Audio(switchOffSound)
 export const BackgroundSwitch = () => {
   const [checked, setChecked] = useState(false)
 
   const handleChange = _checked => {
     const theme = getTheme(_checked)
+    if (checked !== _checked) {
+      if (_checked === true) {
+        soundOn.play()
+      } else {
+        soundOff.play()
+      }
+    }
     setChecked(_checked)
     toggleTheme(theme)
   }

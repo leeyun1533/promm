@@ -4,6 +4,8 @@ import Switch from 'react-switch'
 import * as Dom from '../../utils/dom'
 import * as Storage from '../../utils/storage'
 import { THEME } from '../../constants'
+import switchOnSound from '../../../assets/switch-on.wav'
+import switchOffSound from '../../../assets/switch-off.wav'
 
 import './index.scss'
 
@@ -51,14 +53,25 @@ function toggleTheme(theme) {
   }
 }
 
+const soundOn = new Audio(switchOnSound)
+const soundOff = new Audio(switchOffSound)
+
 export const ThemeSwitch = () => {
   const [checked, setChecked] = useState(false)
 
-  const handleChange = checked => {
-    const theme = getTheme(checked)
+  const handleChange = checkedEvent => {
+    const theme = getTheme(checkedEvent)
 
-    Storage.setTheme(checked)
-    setChecked(checked)
+    if (checked !== checkedEvent) {
+      if (checkedEvent === true) {
+        soundOn.play()
+      } else {
+        soundOff.play()
+      }
+    }
+
+    Storage.setTheme(checkedEvent)
+    setChecked(checkedEvent)
     toggleTheme(theme)
   }
 

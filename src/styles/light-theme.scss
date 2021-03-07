@@ -46,12 +46,36 @@ body.light {
   .thumbnail {
     h3 {
       color: $dark-gray;
+      position: relative;
+      display: inline-block;
+
+      &:after {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        height: 12px;
+        width: 110%;
+        bottom: 0px;
+        opacity: 0.4;
+        left: 0;
+        background: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0) 50%,
+          rgba(160, 218, 169, 1) 50%
+        );
+        background-size: 200%;
+        background-position: 0 0;
+      }
     }
+
     p {
       color: $middle-gray;
     }
     &:hover {
-      text-shadow: $light-hover-text-shadow;
+      h3:after {
+        transition: 0.5s ease-in-out;
+        background-position: -100% 0;
+      }
     }
   }
 
@@ -68,5 +92,14 @@ body.light {
       background-color: $navigator-background-color;
       color: $navigator-text-color;
     }
+  }
+}
+
+@keyframes highlight {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
   }
 }
