@@ -3,6 +3,11 @@
 .bio {
   margin-bottom: 24px;
 
+  .author {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .author-description {
     display: flex;
   }

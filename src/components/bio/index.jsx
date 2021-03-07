@@ -1,7 +1,8 @@
 import React from 'react'
 import { StaticQuery, graphql, Link } from 'gatsby'
 import Image from 'gatsby-image'
-
+import { ThemeSwitch } from '../../components/theme-switch'
+import { BackgroundSwitch } from '../../components/canvas-background'
 import './index.scss'
 
 export const Bio = () => (
@@ -52,6 +53,10 @@ export const Bio = () => (
                   )}
                 </p>
               </div>
+            </div>
+            <div>
+              <BackgroundSwitch />
+              <ThemeSwitch />
             </div>
           </div>
         </div>
