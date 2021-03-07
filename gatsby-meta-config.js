@@ -6,10 +6,10 @@ module.exports = {
   siteUrl: `https://promm.dev`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
-    github: `https://github.com/leeyun1533`, // Your GitHub account
+    github: `leeyun1533`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
-    linkedin: `https://www.linkedin.com/in/%EC%A0%95%EC%9C%A4-%EC%9D%B4-24388b165`, // Your LinkedIn account
+    linkedin: `정윤-이-24388b165`, // Your LinkedIn account
   },
   icon: `content/assets/favicon.png`, // Add your favicon
   keywords: [`blog`],
