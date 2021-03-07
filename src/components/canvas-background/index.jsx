@@ -104,11 +104,15 @@ function toggleTheme(theme) {
     }
   }
 }
-
+let soundOn = undefined
+let soundOff = undefined
+if (typeof Audio != 'undefined') {
+  soundOn = new Audio(switchOnSound)
+  soundOff = new Audio(switchOffSound)
+}
 export const BackgroundSwitch = () => {
   const [checked, setChecked] = useState(false)
-  const soundOn = new Audio(switchOnSound)
-  const soundOff = new Audio(switchOffSound)
+
   const handleChange = _checked => {
     const theme = getTheme(_checked)
     if (checked !== _checked) {

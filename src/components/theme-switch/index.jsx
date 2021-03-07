@@ -53,10 +53,15 @@ function toggleTheme(theme) {
   }
 }
 
+let soundOn = undefined
+let soundOff = undefined
+if (typeof Audio != 'undefined') {
+  soundOn = new Audio(switchOnSound)
+  soundOff = new Audio(switchOffSound)
+}
+
 export const ThemeSwitch = () => {
   const [checked, setChecked] = useState(false)
-  const soundOn = new Audio(switchOnSound)
-  const soundOff = new Audio(switchOffSound)
 
   const handleChange = checkedEvent => {
     const theme = getTheme(checkedEvent)
