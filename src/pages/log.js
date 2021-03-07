@@ -24,12 +24,14 @@ export default ({ data, location }) => {
   const { siteMetadata } = data.site
   const { countOfInitialPost } = siteMetadata.configs
   const posts = data.allMarkdownRemark.edges.filter(
-    edge => edge.node.frontmatter.category !== 'log'
+    edge => edge.node.frontmatter.category === 'log'
   )
+
   const categories = useMemo(
     () => _.uniq(posts.map(({ node }) => node.frontmatter.category)),
     []
   )
+
   const [count, countRef, increaseCount] = useRenderedCount()
   const [category, selectCategory] = useCategory()
 
