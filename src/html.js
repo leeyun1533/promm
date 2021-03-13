@@ -10,6 +10,10 @@ export default class HTML extends React.Component {
             name="google-site-verification"
             content="fn3C4R4wu-DzRYJJiUG6RS_gexZa3enqefAEasJdMIQ"
           />
+          <meta
+            name="naver-site-verification"
+            content="0f98290b3257654ae015dce5f938ea0814574bc3"
+          />
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta
