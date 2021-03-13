@@ -1,7 +1,7 @@
 ---
 title: Prettier + Eslint
 date: 2021-03-13 14:41:75
-category: typescript
+category: tool
 thumbnail: { thumbnailSrc }
 draft: false
 ---
@@ -22,8 +22,6 @@ ESLint는 ES + Lint의 합성어로 EsmaScript문법에 에러가 있는 코드�
 즉 ESLint는 JavaScript의 스타일 가이드를 따르지 않거나 문제가 있는 안티 패턴들을 찾아주고 일관된 코드 스타일로 작성하도록 도와준다.
 
 코딩 컨벤션 및 안티 패턴을 자동 검출 하므로 휴먼 에러를 방지할 수 있고, 코드 일관성을 지킬 수 있다. 또한 코드 리뷰에도 큰 도움이 된다.
-
-본 프로젝트에 적용되어있는 Eslint Rule은 Airbnb Style Guide 이다.
 
 ## Prettier 란?
 
