@@ -6,6 +6,10 @@ thumbnail: { thumbnailSrc }
 draft: false
 ---
 
+![typescript-in-react](../../assets/typescript-in-react.png)
+
+> 이미지출처: https://ionicframework.com/blog/how-to-use-typescript-in-react
+
 ## 개요
 
 Typescript 스터디에서 Class 부분을 담당하게 되었다.
