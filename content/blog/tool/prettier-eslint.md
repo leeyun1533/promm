@@ -204,3 +204,4 @@ husky+lint-staged를 활용한다면, commit과 push 단계에서 lint검사를 
 
 https://pravusid.kr/javascript/2019/03/10/eslint-prettier.html
 https://prettier.io/
+https://www.huskyhoochu.com/npm-husky-the-git-hook-manager/
