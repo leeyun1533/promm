@@ -36,6 +36,10 @@ thumbnail: ''
 
   - typescript를 기본으로 사용하며 안정성 강화
 
+  - storybook을 활용하여 모든 페이지 UI테스트
+
+  - redux, safa flow 및 util등을 jest를 활용해 테스트
+
 <br/>
 
 - Indonesia Bank LIFF Web
