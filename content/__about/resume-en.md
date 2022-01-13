@@ -170,8 +170,6 @@ thumbnail: ''
 - Summer hackathon 주최
 - Devfest 2021 주최
 
-<br/><br/>
-
 <h2>Cro Company Team</h2>
 
 - 캠핑, 렌트카, 피크닉 종합 렌트 플랫폼, 빌려주쉐어
@@ -184,7 +182,9 @@ thumbnail: ''
 
 - 비행기 티켓 예약 플랫폼 Kayak API 연동
 
-  2022.01.13
+<br/><br/>
+
+2022.01.13
 
 <div align="center" class="final">
 
