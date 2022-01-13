@@ -38,7 +38,7 @@ thumbnail: ''
 
   - storybook을 활용하여 모든 페이지 UI테스트
 
-  - redux, safa flow 및 util등을 jest를 활용해 테스트
+  - redux, saga flow 및 util등을 jest를 활용해 테스트
 
 <br/>
 
@@ -156,7 +156,23 @@ thumbnail: ''
 <span class='highlight'>Side Experiences</span>
 </h1>
 
-<h2>Cro Company </h2>
+<h2> 2020 부스트 캠프 리뷰어 </h2>
+
+- 6명의 캠퍼(멘티)의 개인 프로젝트 코드를 리뷰
+
+<h2> 2021 엘리스 부트캠프 코치 </h2>
+
+- 12명의 레이서(멘티)의 프로젝트 코드를 리뷰 및 코칭
+
+<h2> GDG Campus Korea Organizer
+
+- 2021~ 구글 커뮤니티의 오거나이저로 활동중
+- Summer hackathon 주최
+- Devfest 2021 주최
+
+<br/><br/>
+
+<h2>Cro Company Team</h2>
 
 - 캠핑, 렌트카, 피크닉 종합 렌트 플랫폼, 빌려주쉐어
 
@@ -168,13 +184,7 @@ thumbnail: ''
 
 - 비행기 티켓 예약 플랫폼 Kayak API 연동
 
-<h2> 2020 부스트 캠프 리뷰어 </h2>
-
-- 6명의 캠퍼의 개인 프로젝트 코드를 리뷰
-
-<br/><br/>
-
-2021.03.07
+  2022.01.13
 
 <div align="center" class="final">
 
