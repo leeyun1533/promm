@@ -164,7 +164,7 @@ thumbnail: ''
 
 - 12명의 레이서(멘티)의 프로젝트 코드를 리뷰 및 코칭
 
-<h2> GDG Campus Korea Organizer
+<h2> GDG Campus Korea Organizer </h2>
 
 - 2021~ 구글 커뮤니티의 오거나이저로 활동중
 - Summer hackathon 주최
