@@ -22,33 +22,105 @@ thumbnail: ''
 
 <h2 class='no-border line'>Line Financial+ </h2>
 
-|              |                                                                           |
-| -----------: | ------------------------------------------------------------------------- |
-|   **period** | 20.06 ~ current                                                           |
-| **position** | Fintech web dev / Front-End Engineer                                      |
-| **projects** | Japan Bank Hybrid Web, Indonesia Bank Hybrid Web, Indonesia Bank LIFF Web |
+|              |                                                                                             |
+| -----------: | ------------------------------------------------------------------------------------------- |
+|   **period** | 20.06 ~ current                                                                             |
+| **position** | Fintech web dev / Front-End Engineer                                                        |
+| **projects** | Japan Bank Hybrid Web, Indonesia Bank Hybrid Web, Indonesia Bank LIFF Web, Fintech Magazine |
 
-- Japan Bank Hybrid Web, Indonesia Bank Hybrid Web
+<h3> Japan Bank Hybrid Web </h3>
 
-  - 라인뱅크 앱의 웹기능 개발
+- 2021.01 ~ current
 
-  - redux,redux-saga를 통한 flux아키텍처 사용
+- 라인뱅크 앱의 웹기능 초기 설계 및 개발
 
-  - typescript를 기본으로 사용하며 안정성 강화
+<h4> Tech Stack </h4>
 
-  - storybook을 활용하여 모든 페이지 UI테스트
+- react.js
 
-  - redux, saga flow 및 util등을 jest를 활용해 테스트
+- redux,redux-saga
+
+- typescript
+
+- storybook
+
+- jest
+
+- yarn berry, webpack5
+
+<h4> Description </h4>
+
+초기 설계단계부터 참여하여 현재까지 진행중인 프로젝트
+
+- redux와 같이 사용가능한 storybook 시스템 구축, 디자인 QA 효율화
+- api가 없는 상황에서 mocking api를 component 개발하는 시스템 구축
+- 각 기능에 필요한 customHook 제작 (https://promm.dev/react/infinite-scroll-util/)
+- App, Web 간의 소통을 위한 인터페이스 제작
+- Saga 로직에 대한 검증을 Jest로 실행
+
+<h4> 담당 제작 기능 </h4>
+
+- 대출 증명서 업로드, 한도 제한, 타행 이체, 알림센터, 수수료, 금리 안내, 계좌 해지
 
 <br/>
 
-- Indonesia Bank LIFF Web
+<h3> Indonesia Bank Hybrid Web, Indonesia Bank LIFF Web </h3>
 
-  - 라인의 LIFF 프레임워크 위에 생성된 독자적인 웹앱 개발
+- 라인의 LIFF 프레임워크 위에 생성된 독자적인 웹앱 개발 및 하이브리드 웹앱 개발
 
-  - redux,redux-saga를 통한 flux아키텍처 사용
+- 2020.06 ~ 2020.12
 
-  - redux,redux-saga 생성 자동화
+<h4> 기술 스택 </h4>
+
+- react.js
+
+- redux,redux-saga
+
+- typescript
+
+- storybook
+
+- jest
+
+- cra
+
+<h4> Description </h4>
+
+기존에 개발된 기능 유지보수 및 신규 대출 개발
+
+- 인수인계자가 부족한 상황에서 뱅크 앱 전반을 유지보수
+- App, Web 간의 소통을 위한 인터페이스 제작
+
+<h4> 담당 기능 </h4>
+
+- LIFF: 한도 조회, 예약 이체, 소개 페이지, 메인 페이지, 입출금 내역, 타임라인
+- Hybrid: 알림 센터, 예약 이체, FAQ, 공지사항
+
+<br/>
+
+<h3> Fintech Magazine </h3>
+
+- 2020.01 ~ current
+
+<h4> 기술 스택 </h4>
+
+- SWR
+
+- Next.js
+
+- framer-motion
+
+- strapi
+
+- styled-components
+
+<h4> Description </h4>
+
+전사가 재택중인 상황에서 핀테크 법인 멤버들에게 회사와 멤버의 소식을 공유하기위해 진행한 사이드 프로젝트 <br/>
+상대적으로 기술 스택을 바꾸는 것이 자유롭지 못한 은행 프로젝트에 비해 자유롭게 기술 스택을 선택하여 진행하였음 <br/>
+framer-motion으로 유려한 애니메이션 제작, strapi로 백엔드 파트는 없이 진행
+
+<br/>
 
 <h2 class='no-border lendit'>Lendit </h2>
 
@@ -59,6 +131,8 @@ thumbnail: ''
 | **projects** | Jsp to Vue, Lendit 채용사이트, Storybook 디자인시스템, 기관투자 EMS/OMS, 렌딧 대출서비스 개발 |
 
 - 대출 서비스 개발
+
+  - 2019.01 ~ 2020.03
 
   - P2P 테크핀기업 렌딧의 대출 서비스
 
@@ -76,13 +150,17 @@ thumbnail: ''
 
 - Storybook Design system
 
-  - 렌딧 서비스의 Storybook을 통한 Design system 구축
+  - 2019.01 ~ 2020.03
+
+  - 렌딧 서비스의 Storybook을 통한 Design system 구축 (https://promm.dev/testing/storybook-vue/)
 
   - Presentational component와 Container component로 구조 분리
 
   <br/>
 
-* 기관투자 EMS/OMS
+- 기관투자 EMS/OMS
+
+  - 2019.06 ~ 2019.09
 
   - 렌딧 어드민의 ems/oms system 구축
 
@@ -90,7 +168,9 @@ thumbnail: ''
 
   <br/>
 
-* 채용사이트
+- 채용사이트
+
+  - 2020.01 ~ 2020.02
 
   - 렌딧 채용사이트 구축
 
@@ -143,12 +223,6 @@ thumbnail: ''
   - 반응형 포스터기기에 사용되는 초음파센서 연구
 
   - 사용자의 위치에 따른 인식률 논문 멀티미디어 학회 발표
-
-<br/>
-
-- 지하철 노선도
-
-  - 최단거리, 최소환승 알고리즘을 차용한 노선도 개발
 
 <br/>
 
