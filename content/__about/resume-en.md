@@ -258,7 +258,7 @@ framer-motion으로 유려한 애니메이션 제작, strapi로 백엔드 파트
 
 <br/><br/>
 
-2022.01.13
+2022.02.21
 
 <div align="center" class="final">
 
