@@ -97,10 +97,11 @@ thumbnail: ''
 - Hybrid: 알림 센터, 예약 이체, FAQ, 공지사항
 
 <br/>
+<br/>
 
 <h3> Fintech Magazine </h3>
 
-- 2020.01 ~ current
+- 2021.10 ~ current
 
 <h4> 기술 스택 </h4>
 
