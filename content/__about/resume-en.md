@@ -20,17 +20,49 @@ thumbnail: ''
 <span class='highlight'>Work Experiences</span>
 </h1>
 
+<h2 class='no-border karrot'>당근마켓 </h2>
+
+|              |                                 |
+| -----------: | ------------------------------- |
+|   **period** | 22.03 ~ current                 |
+| **position** | 당근모임팀 / Front-End Engineer |
+| **projects** | 당근모임                        |
+
+<h3> 당근모임 </h3>
+
+- 22.03 ~ current
+
+- 당근모임 프론트엔드 설계 및 개발
+
+<h4> Tech Stack </h4>
+
+- react.js
+
+- react-query
+
+- typescript
+
+- yarn berry, webpack5
+
+- zustand
+
+<h4> Description </h4>
+
+당근모임 MVP 개발
+
+<br/>
+
 <h2 class='no-border line'>Line Financial+ </h2>
 
 |              |                                                                                             |
 | -----------: | ------------------------------------------------------------------------------------------- |
-|   **period** | 20.06 ~ current                                                                             |
+|   **period** | 20.06 ~ 22.03                                                                               |
 | **position** | Fintech web dev / Front-End Engineer                                                        |
 | **projects** | Japan Bank Hybrid Web, Indonesia Bank Hybrid Web, Indonesia Bank LIFF Web, Fintech Magazine |
 
 <h3> Japan Bank Hybrid Web </h3>
 
-- 2021.01 ~ current
+- 2021.01 ~ 22.03
 
 - 라인뱅크 앱의 웹기능 초기 설계 및 개발
 
