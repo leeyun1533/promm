@@ -46,6 +46,8 @@ thumbnail: ''
 
 - zustand
 
+- monorepo(yarn workspace)
+
 <h4> Description </h4>
 
 당근모임 MVP 개발
