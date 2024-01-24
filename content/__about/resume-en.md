@@ -22,11 +22,29 @@ thumbnail: ''
 
 <h2 class='no-border karrot'>당근마켓 </h2>
 
-|              |                                 |
-| -----------: | ------------------------------- |
-|   **period** | 22.03 ~ current                 |
-| **position** | 당근모임팀 / Front-End Engineer |
-| **projects** | 당근모임                        |
+|              |                          |
+| -----------: | ------------------------ |
+|   **period** | 24.01 ~ current          |
+| **position** | 그룹플랫폼팀 / Part Lead |
+| **projects** | 당근모임                 |
+
+<h3> 당근모임 </h3>
+
+- 24.01 ~ current
+
+- 당근모임 신뢰,오프라인 맥락의 전략 수립
+
+<h4> Description </h4>
+
+당근모임 프론트엔드 개발
+
+<h2 class='no-border karrot'>당근마켓 </h2>
+
+|              |                                   |
+| -----------: | --------------------------------- |
+|   **period** | 22.03 ~ current                   |
+| **position** | 그룹플랫폼팀 / Front-End Engineer |
+| **projects** | 당근모임                          |
 
 <h3> 당근모임 </h3>
 
@@ -50,7 +68,7 @@ thumbnail: ''
 
 <h4> Description </h4>
 
-당근모임 MVP 개발
+- 당근모임 프론트엔드 설계를 진행
 
 <br/>
 
@@ -84,7 +102,7 @@ thumbnail: ''
 
 <h4> Description </h4>
 
-초기 설계단계부터 참여하여 현재까지 진행중인 프로젝트
+초기 설계단계부터 참여했음
 
 - redux와 같이 사용가능한 storybook 시스템 구축, 디자인 QA 효율화
 - api가 없는 상황에서 mocking api를 component 개발하는 시스템 구축
@@ -276,7 +294,6 @@ framer-motion으로 유려한 애니메이션 제작, strapi로 백엔드 파트
 <h2> 2020 부스트 캠프 리뷰어 </h2>
 
 - 6명의 캠퍼(멘티)의 개인 프로젝트 코드를 리뷰
-
 
 <h2> GDG Campus Korea Organizer </h2>
 
